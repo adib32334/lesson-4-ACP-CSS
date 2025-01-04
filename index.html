@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Advanced Selectors</title>
+    </head>
+    <style>
+        body {
+            background-image: url(image.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        input[type="text"] {
+            border: 5px solid green;
+        }
+        input[type="password"] {
+            border: 5px solid blue;
+        }
+        #h2:hover {
+            color: white;
+        }
+        ol > li {
+            color: aqua;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul > li {
+            color: chartreuse;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        * {
+            font-weight: bold;
+        }
+        #ul:hover {
+            color: white;
+        }
+        #ol:hover {
+            color: white;
+        }
+    </style>
+    <body>
+        <h1 id="h2" style="font-size: 50px;">input</h1>
+        <input type="text" placeholder="type your name" ><br><br>
+        <input type="password" placeholder="type your password">
+        <h2 id="ol" style="font-size: 50px;">Ordered List</h2>
+        <ol>
+            <li>apple</li>
+            <li>banana</li>
+            <li>strawberry</li>
+        </ol>
+        <h3 id="ul" style="font-size: 50px;">Unordered List </h3>
+        <ul>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Hot Chocolate</li>
+        </ul>
+    </body>
+</html>
